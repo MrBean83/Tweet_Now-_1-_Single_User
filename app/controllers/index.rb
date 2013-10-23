@@ -4,5 +4,5 @@ end
 
 post '/' do
   Twitter.update(params[:tweet])
-  redirect ''
+  redirect '/'
 end
